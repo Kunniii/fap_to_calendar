@@ -13,12 +13,13 @@ def printUsage():
     h = '''
 Options:
     -i  --id         : String - Your Session ID
-    -o  --out        : String - Output directory (must be an absolute path)
+    -o  --out        : String - Calendar output path, eg: calendar.ics (should be an absolute path)
     -y  --year       : Int    - The year you want to get info (default: current year)
     -w  --week       : Int    - Week number in that year you selected (default: current week)
         --weeks      : Int    - Week number, separated by a dot <.> (--weeks 5.6.7.8)
     -c  --check      : Perform checking if the Session is valid
         --check-only : Only perform checking, then exit.
+        --json-out   : The path to save data in JSON format (should be an absolute path)
     '''
     print(h)
 
@@ -160,6 +161,12 @@ def turnTheTableIntoJSON(soup: bs):
         data.append(_data)
     return data
 
+def turnMultipleTableToJSON(soups: list):
+    data = []
+    for soup in soups:
+        data += turnTheTableIntoJSON(soup)
+    return data
+
 def getScheduleData(cookies, headers, check=False):
     response = requests.get('https://fap.fpt.edu.vn/Report/ScheduleOfWeek.aspx', cookies=cookies, headers=headers)
     soup = bs(response.text, "html.parser")
@@ -189,11 +196,14 @@ def getScheduleDataWithYearAndWeek(cookies, headers, year, week, aspnetFormData,
     return soup
 
 def getScheduleDataWithYearAndWeeks(cookies, headers, year, weeks, aspnetFormData):
-# Need to work more :d TODO
+    soups = []
+    print()
     for week in weeks:
-        getScheduleDataWithYearAndWeek(cookies=cookies, headers=headers, year=year, week=week, aspnetFormData=aspnetFormData, check=False)
+        cprint(f'[+] Getting data: {week}', 'blue')
+        soups.append(getScheduleDataWithYearAndWeek(cookies=cookies, headers=headers, year=year, week=week, aspnetFormData=aspnetFormData, check=False))
+    return soups
 
-def createIcsFromJSON(data: dict):
+def createIcsFromJSON(data: dict, outFile):
     from datetime import datetime
     calendar = Calendar()
     for obj in data:
@@ -211,14 +221,15 @@ def createIcsFromJSON(data: dict):
             e.end = datetime.fromisoformat(endTime)
             e.description = f"Room: {value['room']}\n\nMeet URL: {value['meetUrl']}\n\nEduNext: {value['eduNextUrl']}"
             calendar.events.add(e)
-    with open('schedule.ics', 'w+', encoding='utf-8') as f:
+    with open(f'{outFile}', 'w+', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())
 
 
 def main():
-    outDir = "./out"
+    outFile = "schedule.ics"
     data = []
     check = False
+    jsonFile = None
     week = None
     weeks = None
     year = None
@@ -242,7 +253,7 @@ def main():
         cprint("\nNeed more Argument!", "red")
         raise ()
     else:
-        opts, args = getopt.getopt(argv, "i:o:c+y:w:", ['id=', 'out=', 'check', 'year=', 'week=', 'weeks=', 'check-only'])
+        opts, args = getopt.getopt(argv, "i:o:c+y:w:", ['id=', 'out=', 'check', 'year=', 'week=', 'weeks=', 'check-only', 'json-out='])
         #### Check options ####
         checker = []
         for option, val in opts:
@@ -253,7 +264,7 @@ def main():
         #### End check options ####
         for option, value in opts:
             if option in ['-o', '--out']:
-                outDir = value
+                outFile = value
             if option in ['-i', '--id']:
                 cookies['ASP.NET_SessionId'] = value
             if option in ['-c', '--check']:
@@ -266,6 +277,8 @@ def main():
                 weeks = value.split('.')
             if option in ['--check-only']:
                 checkOnly(cookies, headers)
+            if option in ['--json-out']:
+                jsonFile = value
 
     soup, yearData, weekData, aspnetFormData = getScheduleData(cookies, headers, check)
 
@@ -276,17 +289,21 @@ def main():
             pass
         else:
             if week:
+                if '.' in week:
+                    raise Exception('Option -w or --week must be an Integer. Maybe you want to use --weeks')
                 soup = getScheduleDataWithYearAndWeek(cookies=cookies, headers=headers, year=year, week=week, aspnetFormData=aspnetFormData, check=check)
             else:
-                # TODO
-                getScheduleDataWithYearAndWeeks(cookies=cookies, headers=headers, year=year, weeks=weeks, aspnetFormData=aspnetFormData)
+                soup = getScheduleDataWithYearAndWeeks(cookies=cookies, headers=headers, year=year, weeks=weeks, aspnetFormData=aspnetFormData)
     elif any([year, week]) or any([year, weeks]) : # some para set
         print(year, week)
         raise Exception("Both --year and --week --weeks must be set!")
     else: # none set
         pass
-    data = turnTheTableIntoJSON(soup)
-    createIcsFromJSON(data)
+    data = turnMultipleTableToJSON(soup)
+    if jsonFile:
+        with open(jsonFile,'w+',encoding='utf-8') as f:
+            print(json.dumps(data, indent=2), file=f)
+    createIcsFromJSON(data, outFile)
 
 
 if __name__ == "__main__":
