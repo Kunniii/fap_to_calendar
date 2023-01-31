@@ -250,8 +250,7 @@ def main():
 
     argv = sys.argv[1:]
     if not argv:
-        cprint("\nNeed more Argument!", "red")
-        raise ()
+        raise Exception("Session Id is REQUIRED!")
     else:
         opts, args = getopt.getopt(argv, "i:o:c+y:w:", ['id=', 'out=', 'check', 'year=', 'week=', 'weeks=', 'check-only', 'json-out='])
         #### Check options ####
@@ -259,8 +258,7 @@ def main():
         for option, val in opts:
             checker.append(option)
         if not any(['-i' in checker, '--id' in checker]):
-            cprint("\nSession Id is REQUIRED!", "red")
-            raise ()
+            raise Exception("\nSession Id is REQUIRED!")
         #### End check options ####
         for option, value in opts:
             if option in ['-o', '--out']:
