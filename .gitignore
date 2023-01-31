@@ -1,1 +1,3 @@
 *.htm*
+**/session.id
+**/__pycache__

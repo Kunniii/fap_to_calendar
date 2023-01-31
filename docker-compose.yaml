@@ -1,9 +1,0 @@
-version: "3.9"
-
-services:
-  python3-10:
-    container_name: python3-fap
-    build: .
-    volumes:
-      - .:/app
-    command: "student.py -o outt.html"

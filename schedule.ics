@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Room: R.ON14\n\nMeet URL: https://meet.google.com/jzt-dpix-owg\n\nEduNext: https://fu.edunext.vn?CampusCode=CT&subjectCode=NWC302&semester=Spring2023&ClassName=IA1501&SessionN0=8
+DTEND:20230208T050000Z
+DTSTART:20230208T023500Z
+SUMMARY:NWC302
+UID:cbbed17d-d0e9-417b-8591-f9396a817421@cbbe.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: ON14\n\nMeet URL: https://meet.google.com/urp-qfvh-bxy\n\nEduNext: None
+DTEND:20230210T031500Z
+DTSTART:20230210T014500Z
+SUMMARY:PMG202
+UID:fc110bf2-ebc5-412e-9619-2c8645cba2b3@fc11.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: R.G308\n\nMeet URL: https://meet.google.com/jzt-dpix-owg\n\nEduNext: https://fu.edunext.vn?CampusCode=CT&subjectCode=DBS401&semester=Spring2023&ClassName=IA1501&SessionN0=8
+DTEND:20230209T050000Z
+DTSTART:20230209T023500Z
+SUMMARY:DBS401
+UID:c8e18d67-6bb3-4240-9413-583021f97e16@c8e1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: R.G308\n\nMeet URL: https://meet.google.com/pmc-ehix-brq\n\nEduNext: https://fu.edunext.vn?CampusCode=CT&subjectCode=MLN111&semester=Spring2023&ClassName=IA1501&SessionN0=7
+DTEND:20230207T050000Z
+DTSTART:20230207T023500Z
+SUMMARY:MLN111
+UID:09f1130e-d724-4138-928f-1573bf327b6b@09f1.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: R.G308\n\nMeet URL: https://meet.google.com/pmc-ehix-brq\n\nEduNext: https://fu.edunext.vn?CampusCode=CT&subjectCode=MLN111&semester=Spring2023&ClassName=IA1501&SessionN0=8
+DTEND:20230209T022500Z
+DTSTART:20230209T000000Z
+SUMMARY:MLN111
+UID:e568b53a-5e17-4211-a441-ecca448ee339@e568.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: R.G308\n\nMeet URL: https://meet.google.com/jzt-dpix-owg\n\nEduNext: https://fu.edunext.vn?CampusCode=CT&subjectCode=DBS401&semester=Spring2023&ClassName=IA1501&SessionN0=7
+DTEND:20230207T022500Z
+DTSTART:20230207T000000Z
+SUMMARY:DBS401
+UID:fd6daf53-ece8-4ecb-b119-41b28da056bc@fd6d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: R.ON14\n\nMeet URL: https://meet.google.com/jzt-dpix-owg\n\nEduNext: https://fu.edunext.vn?CampusCode=CT&subjectCode=NWC302&semester=Spring2023&ClassName=IA1501&SessionN0=7
+DTEND:20230206T022500Z
+DTSTART:20230206T000000Z
+SUMMARY:NWC302
+UID:b214d427-aae9-4866-a7de-5f9cfea0b170@b214.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Room: ON14\n\nMeet URL: https://meet.google.com/jzt-dpix-owg\n\nEduNext: None
+DTEND:20230210T013000Z
+DTSTART:20230210T000000Z
+SUMMARY:IAR401
+UID:2aaef958-bccf-42e2-9146-0332198e831d@2aae.org
+END:VEVENT
+END:VCALENDAR
