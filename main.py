@@ -219,7 +219,7 @@ def createIcsFromJSON(data: dict, outFile):
             e.name = value['name']
             e.begin = datetime.fromisoformat(startTime)
             e.end = datetime.fromisoformat(endTime)
-            e.description = f"Room: {value['room']}\n\nMeet URL: {value['meetUrl']}\n\nEduNext: {value['eduNextUrl']}"
+            e.description = f"Online: {'YES' if value['isOnline'] else 'NO'}\n\nRoom: {value['room']}\n\nMeet URL: {value['meetUrl']}\n\nEduNext: {value['eduNextUrl']}"
             calendar.events.add(e)
     with open(f'{outFile}', 'w+', encoding='utf-8') as f:
         f.writelines(calendar.serialize_iter())

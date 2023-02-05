@@ -1,5 +1,537 @@
 [
   {
+    "date": "2023-01-02",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-03",
+    "slots": {
+      "1": {
+        "name": "DBS401",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "09:25:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=DBS401&semester=Spring2023&ClassName=IA1501&SessionN0=1",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=XTGJTO3yegfGOIZ9n%2b4A5w%3d%3d&SessionNo=F9EHvqN%2bdUjlw7x5OhB%2faQ%3d%3d"
+      },
+      "2": {
+        "name": "MLN111",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "09:35:00",
+          "timeEnd": "12:00:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=MLN111&semester=Spring2023&ClassName=IA1501&SessionN0=1",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=fKz%2f9PHEZn%2bTpfQzVgmPGA%3d%3d&SessionNo=F9EHvqN%2bdUjlw7x5OhB%2faQ%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-04",
+    "slots": {
+      "1": {},
+      "2": {
+        "name": "NWC302",
+        "room": "R.G308",
+        "status": "attended",
+        "isOnline": false,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "09:35:00",
+          "timeEnd": "12:00:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=NWC302&semester=Spring2023&ClassName=IA1501&SessionN0=1",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=n7Y3EAuU6lKayIqmA4m%2f0A%3d%3d&SessionNo=F9EHvqN%2bdUjlw7x5OhB%2faQ%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-05",
+    "slots": {
+      "1": {
+        "name": "MLN111",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "09:25:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=MLN111&semester=Spring2023&ClassName=IA1501&SessionN0=2",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=fKz%2f9PHEZn%2bTpfQzVgmPGA%3d%3d&SessionNo=TOzW%2b2PecME5SIRGC1cQKQ%3d%3d"
+      },
+      "2": {
+        "name": "DBS401",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "09:35:00",
+          "timeEnd": "12:00:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=DBS401&semester=Spring2023&ClassName=IA1501&SessionN0=2",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=XTGJTO3yegfGOIZ9n%2b4A5w%3d%3d&SessionNo=TOzW%2b2PecME5SIRGC1cQKQ%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-06",
+    "slots": {
+      "1": {
+        "name": "NWC302",
+        "room": "R.G308",
+        "status": "attended",
+        "isOnline": false,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "09:25:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=NWC302&semester=Spring2023&ClassName=IA1501&SessionN0=2",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=n7Y3EAuU6lKayIqmA4m%2f0A%3d%3d&SessionNo=TOzW%2b2PecME5SIRGC1cQKQ%3d%3d"
+      },
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-07",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-08",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-09",
+    "slots": {
+      "1": {
+        "name": "NWC302",
+        "room": "R.G308",
+        "status": "absent",
+        "isOnline": false,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "09:25:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=NWC302&semester=Spring2023&ClassName=IA1501&SessionN0=3",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=n7Y3EAuU6lKayIqmA4m%2f0A%3d%3d&SessionNo=VdF9zrq%2bg8qFJrK2mtWogw%3d%3d"
+      },
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-10",
+    "slots": {
+      "1": {
+        "name": "DBS401",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "09:25:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=DBS401&semester=Spring2023&ClassName=IA1501&SessionN0=3",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=XTGJTO3yegfGOIZ9n%2b4A5w%3d%3d&SessionNo=VdF9zrq%2bg8qFJrK2mtWogw%3d%3d"
+      },
+      "2": {
+        "name": "MLN111",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "09:35:00",
+          "timeEnd": "12:00:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=MLN111&semester=Spring2023&ClassName=IA1501&SessionN0=3",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=fKz%2f9PHEZn%2bTpfQzVgmPGA%3d%3d&SessionNo=VdF9zrq%2bg8qFJrK2mtWogw%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-11",
+    "slots": {
+      "1": {},
+      "2": {
+        "name": "NWC302",
+        "room": "R.G308",
+        "status": "attended",
+        "isOnline": false,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "09:35:00",
+          "timeEnd": "12:00:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=NWC302&semester=Spring2023&ClassName=IA1501&SessionN0=4",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=n7Y3EAuU6lKayIqmA4m%2f0A%3d%3d&SessionNo=x0unCCVslstpR%2bqpMNvASA%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-12",
+    "slots": {
+      "1": {
+        "name": "MLN111",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "09:25:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=MLN111&semester=Spring2023&ClassName=IA1501&SessionN0=4",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=fKz%2f9PHEZn%2bTpfQzVgmPGA%3d%3d&SessionNo=x0unCCVslstpR%2bqpMNvASA%3d%3d"
+      },
+      "2": {
+        "name": "DBS401",
+        "room": "R.ON14",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "09:35:00",
+          "timeEnd": "12:00:00"
+        },
+        "eduNextUrl": "https://fu.edunext.vn?CampusCode=CT&subjectCode=DBS401&semester=Spring2023&ClassName=IA1501&SessionN0=4",
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=XTGJTO3yegfGOIZ9n%2b4A5w%3d%3d&SessionNo=x0unCCVslstpR%2bqpMNvASA%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-13",
+    "slots": {
+      "1": {
+        "name": "IAR401",
+        "room": "ON16",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "07:00:00",
+          "timeEnd": "08:30:00"
+        },
+        "eduNextUrl": null,
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=%2bISFq7yaa0QqrcnSq0vSWA%3d%3d&SessionNo=F9EHvqN%2bdUjlw7x5OhB%2faQ%3d%3d"
+      },
+      "2": {
+        "name": "PMG202",
+        "room": "ON16",
+        "status": "attended",
+        "isOnline": true,
+        "meetUrl": null,
+        "time": {
+          "timeStart": "08:45:00",
+          "timeEnd": "10:15:00"
+        },
+        "eduNextUrl": null,
+        "materialUrl": "http://flm.fpt.edu.vn/gui/role/guest/ListScheduleSyllabus?subjectCode=ZHctm98I8ZZVI42LWw1%2b%2bA%3d%3d&SessionNo=F9EHvqN%2bdUjlw7x5OhB%2faQ%3d%3d"
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-14",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-15",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-16",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-17",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-18",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-19",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-20",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-21",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-22",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-23",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-24",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-25",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-26",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-27",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-28",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
+    "date": "2023-01-29",
+    "slots": {
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {}
+    }
+  },
+  {
     "date": "2023-01-30",
     "slots": {
       "1": {
