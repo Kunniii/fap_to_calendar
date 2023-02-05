@@ -25,4 +25,4 @@ py main.py -i <your-session-id> --w 15 --year 2023
 py main.py -i <your-session-id>
 ```
 
-After that import the created file to your prefer calendar.
+After that import the created `schedules.ics` file to your prefer calendar.
