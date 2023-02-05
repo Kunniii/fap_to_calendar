@@ -19,7 +19,7 @@ Then use the `main.py` to run with some value.
 py main.py -i <your-session-id> --weeks 5.6.7.8.9.10.11.12.13.14.15.16.17 --year 2023
 
 # Or Download specific week. Eg: week 15 of 2023
-py main.py -i <your-session-id> --w 15 --year 2023
+py main.py -i <your-session-id> --w 15 --y 2023
 
 # Or download at your current week :)
 py main.py -i <your-session-id>
