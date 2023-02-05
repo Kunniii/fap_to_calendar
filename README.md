@@ -1,4 +1,4 @@
-# FAP Calender to an ics file.
+# FAP Calender to an ics file
 
 This shit will need some of your info, like a `session id`.
 
