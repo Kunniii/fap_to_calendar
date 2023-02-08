@@ -26,3 +26,14 @@ py main.py -i <your-session-id>
 ```
 
 After that import the created `schedules.ics` file to your prefer calendar.
+
+## How to get the SessionID ?
+
+Follow this step.
+
+![how](./howto.png)
+
+1. Login to your Academic Portal
+2. Open Chrome Developer Tool by pressing `F12`
+3. Go to `Application` -> `Cookies` -> `https:*****`
+4. Then copy `ASP.net_SessionId`.
