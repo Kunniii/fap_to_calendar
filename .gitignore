@@ -2,3 +2,4 @@
 **/session.id
 **/__pycache__
 *.ics
+.vscode
